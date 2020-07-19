@@ -4,3 +4,10 @@ footer{
     font-size: 20px;
     font-weight: bold;
 }
+
+footer img   {
+    display: block;
+    border-radius: 5px;
+    width: 40px;
+    margin: 0 auto 10px;
+  }

@@ -1,15 +1,16 @@
 import React from "react";
 import "./Footer.css";
 
-
-function Footer(){
+function Footer() {
   return (
-    <footer className="footer fixed-bottom mt-auto py-3 text-center container">
-      <div className="container">
-        <span><i class="fab fa-gratipay"></i>Copyright. Mich.Chou</span>
+    <footer className="footer fixed-bottom mt-auto py-3 mt-5 text-center container">
+      <div >
+        <span>
+          Copyright. Mich.Chou<img src={process.env.PUBLIC_URL + "./assets/img/MichelleLogo.png"} alt="Me"/>
+        </span>
       </div>
     </footer>
   );
-};
+}
 
 export default Footer;

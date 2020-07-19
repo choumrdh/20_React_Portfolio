@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from "./components/header/Header";
 import Footer from './components/footer/Footer';
+import About from "./components/about/About";
 
 class App extends React.Component {
   // constructor(props){
@@ -20,6 +21,7 @@ class App extends React.Component {
     return ( 
       <>
       <Header />
+      <About />
       <Footer />
       </>
      );
