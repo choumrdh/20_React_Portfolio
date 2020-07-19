@@ -1,6 +1,7 @@
 header {
   background-color: rgb(148, 191, 248);
   font-family: fantasy;
+  padding-top: 10px;
 }
 
 .social-icon a > span {
