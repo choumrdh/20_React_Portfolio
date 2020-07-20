@@ -2,7 +2,7 @@ import React from "react";
 
 function About(){
 return(
-    <div className="container mb-5 mt-4">
+    <div className="container mb-5">
         <div className="card">
             <div className="row">
                 <div className="col">

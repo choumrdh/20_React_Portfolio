@@ -1,13 +1,11 @@
 header {
   background-color: rgb(132, 149, 167);
   font-family: fantasy;
-  padding-top: 10px;
+  height: 200px;
+  padding-top: 30px;
 }
 
-.display-4{
-  color: black;
-}
-.display-4:hover{
+.display-4:hover {
   color: purple;
 }
 
