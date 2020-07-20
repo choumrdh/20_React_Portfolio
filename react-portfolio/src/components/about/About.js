@@ -2,11 +2,11 @@ import React from "react";
 
 function About(){
 return(
-    <div className="container mb-5">
+    <div className="container mb-5 mt-4">
         <div className="card">
             <div className="row">
                 <div className="col">
-                    <div className="card-header">
+                    <div className="card-header text-center">
                         <h3>About Me</h3>
                     </div>
 

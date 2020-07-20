@@ -4,7 +4,7 @@ import "./Header.css";
 class Header extends Component {
   render() {
     return (
-      <header className="flex-column flex-md-row text-center container">
+      <header className="flex-column flex-md-row text-center container text-white">
         <h1 className="display-4">Michelle Chou</h1>
         <h3>Full-Stack Developer</h3>
         <div className="container">
@@ -28,7 +28,7 @@ class Header extends Component {
               </span>
             </a>
             <a
-              href="./Images/MChou_Resume2020.pdf"
+              href={process.env.PUBLIC_URL + "./assets/Michelle_Resume2020.pdf"} 
               target="_blank"
               rel="noopener noreferrer"
             >

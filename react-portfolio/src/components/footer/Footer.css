@@ -1,13 +1,12 @@
 footer{
-    background-color: rgb(148, 191, 248);
+    background-color: rgb(132, 149, 167);
     font-family: fantasy;
     font-size: 20px;
     font-weight: bold;
 }
 
 footer img   {
-    display: block;
     border-radius: 5px;
-    width: 40px;
+    width: 50px;
     margin: 0 auto 10px;
   }

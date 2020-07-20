@@ -1,7 +1,14 @@
 header {
-  background-color: rgb(148, 191, 248);
+  background-color: rgb(132, 149, 167);
   font-family: fantasy;
   padding-top: 10px;
+}
+
+.display-4{
+  color: black;
+}
+.display-4:hover{
+  color: purple;
 }
 
 .social-icon a > span {
