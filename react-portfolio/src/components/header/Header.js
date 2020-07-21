@@ -6,7 +6,7 @@ class Header extends Component {
     return (
       <header className="flex-column flex-md-row text-center container text-white">
         <h1 className="display-4">Michelle Chou</h1>
-        <h3>Full-Stack Developer</h3>
+        <h3>Full-Stack Web Developer</h3>
         <div className="container">
           <div className="social-icon">
             <a

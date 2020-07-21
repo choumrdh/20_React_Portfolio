@@ -8,3 +8,6 @@
     left: 25%;
     right:25%;
 }
+.picture-caption a>span{
+    font-size: 20px;
+}

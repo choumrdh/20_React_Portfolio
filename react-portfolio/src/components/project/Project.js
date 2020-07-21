@@ -10,7 +10,7 @@ class Projects extends Component {
     return (
       <div className="container-sm ">
         <div className="card mx-auto">
-          <div className="card-header">
+          <div className="card-header bg-dark text-white text-center">
             <h3>Projects</h3>
           </div>
           <div className="card-body">

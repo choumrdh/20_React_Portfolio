@@ -7,7 +7,7 @@ function Footer() {
       <div >
         <img src={process.env.PUBLIC_URL + "./assets/img/MichelleLogo.png"} alt="Me"/>
         <span className="text-white">
-           M.Chou Copyright
+           M.Chou Copyright 2020
         </span>
       </div>
     </footer>
