@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Resume from "../header/MChou_Resume2020.pdf";
 import "./Header.css";
 
 class Header extends Component {
@@ -28,7 +29,7 @@ class Header extends Component {
               </span>
             </a>
             <a
-              href={process.env.PUBLIC_URL + "./assets/Michelle_Resume2020.pdf"} 
+              href={Resume} 
               target="_blank"
               rel="noopener noreferrer"
             >
