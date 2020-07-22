@@ -20,8 +20,8 @@
     {
         "id":3,
         "title":"Eat-Da-Burger",
-        "image":"./assets/img/homework_Eat_da_burger.png",
-        "description":"A burger logger. A restaurant app that allow user to submit a burger's name and wait for it to be devoured.",
+        "image":"./assets/img/homework_Eat_da_burger.jpg",
+        "description":"A burger logger. A restaurant app that allow user to submit a burger's name and it will display on the left side of page, after a burger has been devoured the burger will move to the right side of the page.",
         "libraries":"Build using express, express-handlebars, mysql",
         "linkToApp":"https://mvc-13-eat-da-burger.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/13_MVC_Eat_Da_Burger"
