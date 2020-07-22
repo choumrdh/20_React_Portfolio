@@ -6,6 +6,7 @@ import Navbar from "./components/navbar/Navbar"
 import About from "./components/about/About";
 import Project from "./components/project/Project";
 import ContactModal from "./components/contactModal/ContactModal"
+import { Container } from 'react-bootstrap';
 
 
 class App extends React.Component {
@@ -21,9 +22,12 @@ class App extends React.Component {
       <>
       <Header />
       <Navbar />
-      <About />
+      <Container>
+       <About />
       <Project/>
-      <ContactModal />
+      <ContactModal /> 
+      </Container>
+      
       <Footer />
       </>
      );
