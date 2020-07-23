@@ -1,18 +1,5 @@
-.project-card img{
-    width: 400px;
-    height: 350px;
-}
 .card{
     margin-bottom: 40px;
     padding-bottom: 40px;
 }
 
-.picture-caption{
-    position: absolute;
-    bottom: 10px;
-    left: 25%;
-    right:25%;
-}
-.picture-caption a>span{
-    font-size: 20px;
-}
