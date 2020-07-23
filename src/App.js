@@ -7,14 +7,9 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./components/page/HomePage";
 import ProjectPage from "./components/page/ProjectPage";
+import PageNotFound from "./components/page/PageNotFound";
 
 class App extends React.Component {
-  // constructor(props){
-  //   super(props);
-  //   this.state = {
-
-  //    }
-  // }
 
   render() {
     return (
@@ -24,11 +19,11 @@ class App extends React.Component {
         <Navbar/>
 
         <Switch>
-         <Route exact path="/" component={HomePage} />
+        <Route exact path="/" component={HomePage} />
         <Route path="/project" component={ProjectPage} />
+        <Route path="*" component={PageNotFound}/>
         {/* <Route path="/contact" component={ContactModal}/>  */}
         </Switch>
-
         <Footer/>
       </Router>
 
