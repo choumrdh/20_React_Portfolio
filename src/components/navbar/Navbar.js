@@ -1,31 +1,28 @@
-import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-// import About from "./components/about/About";
+import React from "react";
+import "./Navbar.css"
+import { BrowserRouter as Router, Link } from "react-router-dom";
+
 
 function Navbar() {
   return (
-    <Router>
-      <nav className="navbar flex-column ">
+      <nav className="navbar flex-column">
         <div className="col-12 col-md-auto"></div>
-        <ul className="nav ">
+        <ul className="nav">
           <li className="nav-item">
-            <Link to="/" className="nav-link ">About</Link>
+            <Link to="/" className="nav-link">About</Link>
           </li>
           <li className="nav-item">
-            <Link to ="/project "className="nav-link " >
+            <Link to ="/project" className="nav-link" >
               Projects
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link " data-toggle="modal" >
+            <Link to ="/contact" className="nav-link" data-toggle="modal" >
               Contact
             </Link>
           </li>
         </ul>
       </nav>
-
-    </Router>
   );
 }
-
 export default Navbar;

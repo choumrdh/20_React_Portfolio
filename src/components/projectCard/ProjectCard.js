@@ -4,8 +4,9 @@ function ProjectCard(props) {
   return (
     <div className="col-12 col-sm-12 col-md-6 project-card">
       <p>
-        <b>{props.title}:</b> {props.description}
+        <b>{props.title}:</b> {props.description} 
       </p>
+      <p><i><b>Click on image for deployed version. </b></i></p>
       <p><b>Libraries Used: </b>{props.library}</p>
       <a href={props.deployLink} target="_blank" rel="noopener noreferrer">
         <img
