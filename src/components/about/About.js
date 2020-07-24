@@ -19,8 +19,8 @@ function About() {
                 className="float-left col-12 col-md-3"
                 alt="Me"
               />
-              My name is Michelle. I am currently a dental hygienist and an
-              inspiring Front-End web developer. I excel at working in
+              My name is Michelle. I am currently a dental hygienist and a
+               Front-End web developer. I excel at working in
               fast-paced and cross functional team environments. I am able to
               work and collaborate efficiently well with others in overcoming
               obstacles and constructive feedback. My interest as a web

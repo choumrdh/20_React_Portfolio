@@ -20,8 +20,9 @@ class App extends React.Component {
 
         <Switch>
         <Route exact path="/" component={HomePage} />
-        <Route path="/project" component={ProjectPage} />
-        <Route path="/contact" component={ContactPage} />
+        <Route exact path="/about" component={HomePage} />
+        <Route exact path="/project" component={ProjectPage} />
+        <Route exact path="/contact" component={ContactPage} />
         <Route path="*" component={PageNotFound}/>
         </Switch>
         <Footer/>
