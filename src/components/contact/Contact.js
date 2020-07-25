@@ -20,8 +20,22 @@ const Contact = () => {
             </ul>
           </div>
           <div className="form-group">
-            <label for="exmapleInputName">Name</label>
-            <input type="name" class="form-control" placeholder="James Bond" />
+            <label for="InputName">Name</label>
+            <input
+              type="name"
+              id="contactNameInput"
+              class="form-control"
+              placeholder="James Bond"
+            />
+          </div>
+          <div className="form-group">
+            <label for="InputEmail">Email</label>
+            <input
+              type="email"
+              id="contactEmailInput"
+              className="form-control"
+              placeholder="example@gmail.com"
+            ></input>
           </div>
           <div class="form-group input-group-lg">
             <label for="message">Message</label>
