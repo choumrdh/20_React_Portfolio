@@ -87,7 +87,7 @@ class Contact extends Component {
               ></textarea>
             </div>
             <div>
-              <button
+              <a
                 typ="submit"
                 href="mailto:m.w.chou21@gmail.com"
                 id="contactSubmit"
@@ -95,13 +95,13 @@ class Contact extends Component {
                 disabled={this.state.disabled}
               >
                 Send
-              </button>
-              {this.state.emailSent === true && (
+              </a>
+              {/* {this.state.emailSent === true && (
                 <p className="d-inline success-msg">Email Send</p>
               )}
               {this.state.emailSent === false && (
                 <p className="d-inline err-msg">Email Not Send</p>
-              )}
+              )} */}
             </div>
           </Form>
         </div>

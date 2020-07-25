@@ -20,28 +20,13 @@ function About() {
                 alt="Me"
               />
               My name is Michelle. I am currently a dental hygienist and a
-               Front-End web developer. I excel at working in
+               Full-stack web developer. I excel at working in
               fast-paced and cross functional team environments. I am able to
               work and collaborate efficiently well with others in overcoming
               obstacles and constructive feedback. My interest as a web
               developer stems from my determination for a career which allows me
               to express my critical thinking abilities and work flexibility.
             </p>
-
-            <ul className="list-group inline-block">
-              <li className="list-group-item list-group-item-primary">
-                <b>Languages:</b> JavaScript, HTML, CSS, SQL
-              </li>
-              <li className="list-group-item list-group-item-primary">
-                <b>Applications: </b>Visual Studio Code, Git, MongoDB, MySQL
-              </li>
-              <li className="list-group-item">
-                <b>Email:</b>m.w.chou21@gmail.com
-              </li>
-              <li className="list-group-item">
-                <b>Phone Number:</b>480-330-5011
-              </li>
-            </ul>
           </div>
         </div>
       </div>
