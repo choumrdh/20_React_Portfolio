@@ -10,7 +10,6 @@
     - [Name](#author-bust_in_silhouette)
     - [GitHub](#author-bust_in_silhouette)
     - [Email](#author-bust_in_silhouette)
-    - [Heroku Deployment](#author-bust_in_silhouette)
   - [License](#license-trophy)
 
 ---
