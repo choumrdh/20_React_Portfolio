@@ -24,6 +24,8 @@
 | ----------- | ----------- |
 | `react-bootstrap` | [react-bootstrap](https://www.npmjs.com/package/react-bootstrap) |
 | `react-router-dom` | [react-router-dom](https://www.npmjs.com/package/react-router-dom) |
+| `gh-pages` | [gh-pages](https://www.npmjs.com/package/gh-pages) |
+
 
   
   #### 	Author :bust_in_silhouette:
