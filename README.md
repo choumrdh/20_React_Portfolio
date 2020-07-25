@@ -24,9 +24,6 @@
 | ----------- | ----------- |
 | `react-bootstrap` | [react-bootstrap](https://www.npmjs.com/package/react-bootstrap) |
 | `react-router-dom` | [react-router-dom](https://www.npmjs.com/package/react-router-dom) |
-| `morgan` | [Morgan](https://www.npmjs.com/package/morgan) |
-| `compression`|[Compression](https://www.npmjs.com/package/compression)|
-| `lite-server`|[Lite-server](https://www.npmjs.com/package/lite-server)|
 
   
   #### 	Author :bust_in_silhouette:
