@@ -7,7 +7,7 @@ function Information() {
         <div className="row">
           <div className="col">
             <div className="card-header text-center bg-dark text-white">
-              <h3>Skillset & Contact Info</h3>
+              <h3>Skillset and Contact Info</h3>
             </div>
           </div>
           <div className="card-body col">
