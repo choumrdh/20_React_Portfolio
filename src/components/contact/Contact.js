@@ -1,63 +1,113 @@
-import React from "react";
+import React, { Component } from "react";
+import { Form } from "react-bootstrap";
+import "./Contact.css";
 
-const Contact = () => {
-  return (
-    <div className="card">
-      <div className="card-body">
-        <div className="card-header">
-          <div>
-            <div className="card-header text-center bg-dark text-white">
-              <h3>Contact</h3>
+class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      message: "",
+      disabled: false,
+      emailSent: null,
+    };
+  }
+
+  handleChange = (event) => {
+    const target = event.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = target.name;
+    this.setState({
+      [name]: value,
+    });
+  };
+  handleSubmit = (event) => {
+    event.preventDefault();
+    this.setState({
+      disabled: true,
+      emailSent: false,
+    });
+  };
+  render() {
+    return (
+      <div className="card">
+        <div className="card-body">
+          <div className="card-header">
+            <div>
+              <div className="card-header text-center bg-dark text-white">
+                <h3>Contact</h3>
+              </div>
+              <ul>
+                <li>Personal Contact Information:</li>
+                <li class="list-item">
+                  <strong>Email: </strong>m.w.chou21@gmail.com
+                </li>
+                <li class="list-item">
+                  <strong>Phone: </strong>480-330-5011
+                </li>
+              </ul>
             </div>
-            <ul>
-              <li>Personal Contact Information:</li>
-              <li class="list-item">
-                <strong>Email: </strong>m.w.chou21@gmail.com
-              </li>
-              <li class="list-item">
-                <strong>Phone: </strong>480-330-5011
-              </li>
-            </ul>
           </div>
-          <div className="form-group">
-            <label for="InputName">Name</label>
-            <input
-              type="name"
-              id="contactNameInput"
-              class="form-control"
-              placeholder="James Bond"
-            />
-          </div>
-          <div className="form-group">
-            <label for="InputEmail">Email</label>
-            <input
-              type="email"
-              id="contactEmailInput"
-              className="form-control"
-              placeholder="example@gmail.com"
-            ></input>
-          </div>
-          <div class="form-group input-group-lg">
-            <label for="message">Message</label>
-            <textarea
-              class="form-control"
-              id="contactFormMessage"
-              rows="7"
-            ></textarea>
-          </div>
-          <div>
-            <a
-              href="mailto:m.w.chou21@gmail.com"
-              id="contactSubmit"
-              class="btn btn-info"
-            >
-              Submit
-            </a>
-          </div>
+          <Form onSubmit={this.handleSubmit}>
+            <div className="form-group">
+              <label for="InputName">Name</label>
+              <input
+                name="name"
+                type="text"
+                id="contactNameInput"
+                class="form-control"
+                placeholder="James Bond"
+                value={this.state.name}
+                onChange={this.handleChange}
+              />
+            </div>
+            <div className="form-group">
+              <label for="InputEmail">Email</label>
+              <input
+                name="email"
+                type="email"
+                id="contactEmailInput"
+                className="form-control"
+                placeholder="example@gmail.com"
+                value={this.state.email}
+                onChange={this.handleChange}
+              ></input>
+            </div>
+            <div class="form-group input-group-lg">
+              <label for="message">Message</label>
+              <textarea
+                name="message"
+                as="textarea"
+                rows="7"
+                class="form-control"
+                id="contactFormMessage"
+                value={this.state.message}
+                onChange={this.handleChange}
+              ></textarea>
+            </div>
+            <div>
+              <button
+                typ="submit"
+                // href="mailto:m.w.chou21@gmail.com"
+                id="contactSubmit"
+                className="btn btn-info"
+                disabled={this.state.disabled}
+              >
+                Send
+              </button>
+              {this.state.emailSent === true && (
+                <p className="d-inline success-msg">Email Send</p>
+              )}
+              {this.state.emailSent === false && (
+                <p className="d-inline err-msg">Email Not Send</p>
+              )}
+            </div>
+          </Form>
         </div>
       </div>
-    </div>
-  );
-};
+    );
+  }
+}
 
 export default Contact;
