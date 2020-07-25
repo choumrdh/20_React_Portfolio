@@ -14,7 +14,7 @@ function About() {
             <p className="card-text">
               <img
                 src={
-                  process.env.PUBLIC_URL + "./assets/img/Michelle_profile.jpg"
+                  process.env.PUBLIC_URL + "/assets/img/Michelle_profile.jpg"
                 }
                 className="float-left col-12 col-md-3"
                 alt="Me"
