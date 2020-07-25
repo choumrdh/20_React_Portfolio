@@ -22,7 +22,7 @@ function ProjectCard(props) {
           href={props.githubLink}
           target="_blank" rel="noopener noreferrer"
         >
-          <span><i class="fab fa-github-square"></i>
+          <span><i className="fab fa-github-square"></i>
           </span>
           <span>GitHub Repository</span>
         </a>

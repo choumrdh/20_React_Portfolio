@@ -40,10 +40,10 @@ class Contact extends Component {
               </div>
               <ul>
                 <li>Personal Contact Information:</li>
-                <li class="list-item">
+                <li className="list-item">
                   <strong>Email: </strong>m.w.chou21@gmail.com
                 </li>
-                <li class="list-item">
+                <li className="list-item">
                   <strong>Phone: </strong>480-330-5011
                 </li>
               </ul>
@@ -51,19 +51,19 @@ class Contact extends Component {
           </div>
           <Form onSubmit={this.handleSubmit}>
             <div className="form-group">
-              <label for="InputName">Name</label>
+              <label htmlFor="InputName">Name</label>
               <input
                 name="name"
                 type="text"
                 id="contactNameInput"
-                class="form-control"
+                className="form-control"
                 placeholder="James Bond"
                 value={this.state.name}
                 onChange={this.handleChange}
               />
             </div>
             <div className="form-group">
-              <label for="InputEmail">Email</label>
+              <label htmlFor="InputEmail">Email</label>
               <input
                 name="email"
                 type="email"
@@ -74,13 +74,13 @@ class Contact extends Component {
                 onChange={this.handleChange}
               ></input>
             </div>
-            <div class="form-group input-group-lg">
-              <label for="message">Message</label>
+            <div className="form-group input-group-lg">
+              <label htmlFor="message">Message</label>
               <textarea
                 name="message"
                 as="textarea"
                 rows="7"
-                class="form-control"
+                className="form-control"
                 id="contactFormMessage"
                 value={this.state.message}
                 onChange={this.handleChange}
@@ -89,7 +89,7 @@ class Contact extends Component {
             <div>
               <button
                 typ="submit"
-                // href="mailto:m.w.chou21@gmail.com"
+                href="mailto:m.w.chou21@gmail.com"
                 id="contactSubmit"
                 className="btn btn-info"
                 disabled={this.state.disabled}

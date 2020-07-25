@@ -16,7 +16,7 @@ class Header extends Component {
               rel="noopener noreferrer"
             >
               <span>
-                <i class="fab fa-linkedin"></i>
+                <i className="fab fa-linkedin"></i>
               </span>
             </a>
             <a
@@ -25,7 +25,7 @@ class Header extends Component {
               rel="noopener noreferrer"
             >
               <span>
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </span>
             </a>
             <a
@@ -34,7 +34,7 @@ class Header extends Component {
               rel="noopener noreferrer"
             >
               <span>
-                <i class="fas fa-file-alt"></i>
+                <i className="fas fa-file-alt"></i>
               </span>
             </a>
           </div>
