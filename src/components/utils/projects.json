@@ -19,6 +19,15 @@
     },
     {
         "id":3,
+        "title":"Google Book Search",
+        "image":"/assets/img/homework_GoogleBookSearch.png",
+        "description":"A React-based Google Books Searchapp. Using React to create components, work with helper/util functions, and utilize React lifecycle methods to query and display books based on user searches. ",
+        "libraries":"Build using express, node, boostrap, mongoose and MongoDB",
+        "linkToApp":"https://mern-googlebooksearch.herokuapp.com/",
+        "githubReop":"https://github.com/choumrdh/21_MERN_GoogleBookSearch"
+    },
+    {
+        "id":4,
         "title":"Eat-Da-Burger",
         "image":"/assets/img/homework_Eat_da_burger.jpg",
         "description":"A burger logger. A restaurant app that allow user to submit a burger's name and it will display on the left side of page, after a burger has been devoured the burger will move to the right side of the page.",
@@ -27,29 +36,20 @@
         "githubReop":"https://github.com/choumrdh/13_MVC_Eat_Da_Burger"
     },
     {
-        "id":4,
+        "id":5,
         "title":"Budget Trackers",
         "image":"/assets/img/homework_BudgetTracker.png",
         "description":"The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.",
         "libraries":"Build using express, mongoose, morgan, compression, lite-server",
         "linkToApp":"https://pwa-18-budgettracker.herokuapp.com/",
         "githubReop":"https://github.com/choumrdh/18_PWA_BudgetTrackers"
-    },
-    {
-        "id":5,
+    },{
+        "id":6,
         "title":"Template Engine",
         "image":"/assets/img/homework_oop.png",
         "description":"CLI application that takes in information about employees and generates a HTML webpage that displays information for each persion.",
         "libraries":"Build using express, express-handlebars, mysql",
         "linkToApp":"https://drive.google.com/file/d/1eOaQaPwAWS0MhMnQ4ESgPjFcQmFmh6RP/view",
         "githubReop":"https://github.com/choumrdh/10_OOP_TemplateEngine"
-    },{
-        "id":6,
-        "title":"Work Day Scheduler",
-        "image":"/assets/img/homework_workScheduler.jpg",
-        "description":"Calendar designed to allows user to save events for each hour of the day. ",
-        "libraries":"Build using jQuery, Bootstrap, Moment.js",
-        "linkToApp":"https://choumrdh.github.io/05_3rdPartyAPIs_WorkDayScheduler/",
-        "githubReop":"https://github.com/choumrdh/05_3rdPartyAPIs_WorkDayScheduler"
     }
 ]

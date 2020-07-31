@@ -27,6 +27,7 @@ function ProjectCard(props) {
           <span>GitHub Repository</span>
         </a>
       </div>
+      <br></br>
     </div>
   );
 }
