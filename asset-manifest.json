@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/20_React_Portfolio/static/css/main.34256953.chunk.css",
-    "main.js": "/20_React_Portfolio/static/js/main.b3836c34.chunk.js",
-    "main.js.map": "/20_React_Portfolio/static/js/main.b3836c34.chunk.js.map",
+    "main.js": "/20_React_Portfolio/static/js/main.9c450121.chunk.js",
+    "main.js.map": "/20_React_Portfolio/static/js/main.9c450121.chunk.js.map",
     "runtime-main.js": "/20_React_Portfolio/static/js/runtime-main.2518d4f2.js",
     "runtime-main.js.map": "/20_React_Portfolio/static/js/runtime-main.2518d4f2.js.map",
     "static/css/2.af3c1da9.chunk.css": "/20_React_Portfolio/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.706c5574.chunk.js": "/20_React_Portfolio/static/js/2.706c5574.chunk.js",
-    "static/js/2.706c5574.chunk.js.map": "/20_React_Portfolio/static/js/2.706c5574.chunk.js.map",
+    "static/js/2.5c8d7ed9.chunk.js": "/20_React_Portfolio/static/js/2.5c8d7ed9.chunk.js",
+    "static/js/2.5c8d7ed9.chunk.js.map": "/20_React_Portfolio/static/js/2.5c8d7ed9.chunk.js.map",
     "index.html": "/20_React_Portfolio/index.html",
-    "precache-manifest.7ae4137f6552b7059437b65f7eb69e01.js": "/20_React_Portfolio/precache-manifest.7ae4137f6552b7059437b65f7eb69e01.js",
+    "precache-manifest.c4245a503bb803f5c0c76aa32b6626c4.js": "/20_React_Portfolio/precache-manifest.c4245a503bb803f5c0c76aa32b6626c4.js",
     "service-worker.js": "/20_React_Portfolio/service-worker.js",
     "static/css/2.af3c1da9.chunk.css.map": "/20_React_Portfolio/static/css/2.af3c1da9.chunk.css.map",
     "static/css/main.34256953.chunk.css.map": "/20_React_Portfolio/static/css/main.34256953.chunk.css.map",
-    "static/js/2.706c5574.chunk.js.LICENSE.txt": "/20_React_Portfolio/static/js/2.706c5574.chunk.js.LICENSE.txt",
-    "static/media/m_chou_aug2020.pdf": "/20_React_Portfolio/static/media/m_chou_aug2020.2713a4f1.pdf"
+    "static/js/2.5c8d7ed9.chunk.js.LICENSE.txt": "/20_React_Portfolio/static/js/2.5c8d7ed9.chunk.js.LICENSE.txt",
+    "static/media/Mchou_Resume2020.pdf": "/20_React_Portfolio/static/media/Mchou_Resume2020.d3f2a985.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.2518d4f2.js",
     "static/css/2.af3c1da9.chunk.css",
-    "static/js/2.706c5574.chunk.js",
+    "static/js/2.5c8d7ed9.chunk.js",
     "static/css/main.34256953.chunk.css",
-    "static/js/main.b3836c34.chunk.js"
+    "static/js/main.9c450121.chunk.js"
   ]
 }
