@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Resume from "../header/m_chou_aug2020.pdf";
+import Resume from "../header/Mchou_Resume2020.pdf";
 import "./Header.css";
 
 class Header extends Component {

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Form } from "react-bootstrap";
+import emailjs from "emailjs-com";
 import "./Contact.css";
 
 class Contact extends Component {
@@ -9,27 +10,45 @@ class Contact extends Component {
       name: "",
       email: "",
       message: "",
-      disabled: false,
-      emailSent: null,
     };
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.resetForm = this.resetForm.bind(this);
+    this.handleInputChange = this.handleInputChange.bind(this);
   }
-
-  handleChange = (event) => {
-    const target = event.target;
-    const value = target.type === "checkbox" ? target.checked : target.value;
-    const name = target.name;
-    this.setState({
-      [name]: value,
-    });
+  handleInputChange = (event) => {
+    const { name, value } = event.target;
+    this.setState({ [name]: value });
   };
-  handleSubmit = (event) => {
-    event.preventDefault();
+
+  handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_v04ljqh",
+        "template_4dbndta",
+        e.target,
+        "user_dthAT5a2CfaDOLy7VSVD7"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    this.resetForm();
+  };
+
+  resetForm = () => {
     this.setState({
-      disabled: true,
-      emailSent: false,
+      name: "",
+      email: "",
+      message: "",
     });
   };
   render() {
+    const { name, email, message } = this.state;
     return (
       <div className="card">
         <div className="card-body">
@@ -58,8 +77,8 @@ class Contact extends Component {
                 id="contactNameInput"
                 className="form-control"
                 placeholder="James Bond"
-                value={this.state.name}
-                onChange={this.handleChange}
+                value={name}
+                onChange={this.handleInputChange}
               />
             </div>
             <div className="form-group">
@@ -70,8 +89,8 @@ class Contact extends Component {
                 id="contactEmailInput"
                 className="form-control"
                 placeholder="example@gmail.com"
-                value={this.state.email}
-                onChange={this.handleChange}
+                value={email}
+                onChange={this.handleInputChange}
               ></input>
             </div>
             <div className="form-group input-group-lg">
@@ -82,20 +101,19 @@ class Contact extends Component {
                 rows="7"
                 className="form-control"
                 id="contactFormMessage"
-                value={this.state.message}
-                onChange={this.handleChange}
+                value={message}
+                onChange={this.handleInputChange}
               ></textarea>
             </div>
             <div>
-              <a
+              <button
                 typ="submit"
-                href="mailto:m.w.chou21@gmail.com"
                 id="contactSubmit"
                 className="btn btn-info"
-                disabled={this.state.disabled}
+                defaultValue="Send"
               >
                 Send
-              </a>
+              </button>
               {/* {this.state.emailSent === true && (
                 <p className="d-inline success-msg">Email Send</p>
               )}
